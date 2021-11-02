@@ -28,7 +28,11 @@ Este es un proyecto para aprender git con github.
 - Limpiar de archivos que no son necesarios del proyecto `git clean` 
 - Dejar claro que se va a borrar sin borrarlo aun `git clean --dry-run`
 - Borrar definitivamente archivos no necesarios `git clean -f`
-- Crear taglines --- pero no me acuerdo
+- Usando Cherry para traer commits de otras ramas `git cherry-pick (codigo)`
+- Usando Tags para ponerle version a los commits `git tag -a v1.0 "Mensaje del tag" (hash del commit)`
+- Ver los tags desde git `git tag`
+- Ver los tags con mas informacion `git show-ref --tags`
+
 
 **Table of Contents**
 
