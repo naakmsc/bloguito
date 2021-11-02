@@ -28,6 +28,7 @@ Este es un proyecto para aprender git con github.
 - Limpiar de archivos que no son necesarios del proyecto `git clean` 
 - Dejar claro que se va a borrar sin borrarlo aun `git clean --dry-run`
 - Borrar definitivamente archivos no necesarios `git clean -f`
+- Crear taglines --- pero no me acuerdo
 
 **Table of Contents**
 
