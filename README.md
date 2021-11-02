@@ -20,7 +20,11 @@ Este es un proyecto para aprender git con github.
 - Agregar mis datos de usuario a git `git config --global -user.name "Nombre"` `git config --global -user.email "Correo"`
 - Haciendo Rebase `git rebase (main)` luego ` git rebase (fix-ghost)`
 - Crear Alias `alias vista="git log --all --graph --decorate --online"`
-
+- Utilizar stash para guardar un cambio sin hacerle commit `git stash`
+- Revisar los stash guardados `git stash list`
+- Borrar los stash `git stash drop`
+- Enviar los stash a una rama nueva `git stash branch (nombre-rama)`
+- Recuperar el stash guardado `git stash pop`
 
 
 
