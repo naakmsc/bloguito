@@ -25,8 +25,9 @@ Este es un proyecto para aprender git con github.
 - Borrar los stash `git stash drop`
 - Enviar los stash a una rama nueva `git stash branch (nombre-rama)`
 - Recuperar el stash guardado `git stash pop`
-
-
+- Limpiar de archivos que no son necesarios del proyecto `git clean` 
+- Dejar claro que se va a borrar sin borrarlo aun `git clean --dry-run`
+- Borrar definitivamente archivos no necesarios `git clean -f`
 
 **Table of Contents**
 
