@@ -37,7 +37,12 @@ Este es un proyecto para aprender git con github.
 - Añadir un cambio olvidado a un commit sin hacer otro `git commit --amend`
 - Buscar algo en especifico `git grep (nombre)` con la linea `git grep -n (nombre)`
 - Buscar un texto en especifico en los commits `git log -S "nombre"`
-
+- Ver los commits que se han hecho por persona `git shortlog` por cantidad `git shortlog -sn` commits borrados `git shortlog -sn --all` sin incluir los merges `git shortlog -sn --all --no-merges`
+- Crear un comando interno de git `git config --global alias.nombre "comando personalizado"`
+- Revisar linea por linea quien hizo cambios en un archivo `git blame "archivo"` identado `git blame -c "archivo"`
+- Conocer mas de un comando `git (comando) --help`
+- Revisar lineas especificads de un archivo `git blame (archivo) -L1,10` agregar formato `git blame (archivo) -L1,10 -c`
+- Ver ramas remotas `git branch -r` ver todas `git branch -a`
 
 **Table of Contents**
 
