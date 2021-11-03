@@ -36,19 +36,26 @@ Este es un proyecto para aprender git con github.
 - Ver todos los cambios por un grandisimo error `git reflog`
 - Añadir un cambio olvidado a un commit sin hacer otro `git commit --amend`
 - Buscar algo en especifico `git grep (nombre)` con la linea `git grep -n (nombre)`
+- Ver el historial de commits `git log` historial de un archivo `git log archivo`
 - Buscar un texto en especifico en los commits `git log -S "nombre"`
 - Ver los commits que se han hecho por persona `git shortlog` por cantidad `git shortlog -sn` commits borrados `git shortlog -sn --all` sin incluir los merges `git shortlog -sn --all --no-merges`
 - Crear un comando interno de git `git config --global alias.nombre "comando personalizado"`
 - Revisar linea por linea quien hizo cambios en un archivo `git blame "archivo"` identado `git blame -c "archivo"`
 - Conocer mas de un comando `git (comando) --help`
 - Revisar lineas especificads de un archivo `git blame (archivo) -L1,10` agregar formato `git blame (archivo) -L1,10 -c`
-- Ver ramas remotas `git branch -r` ver todas `git branch -a`
+- Ver ramas remotas `git branch -r` ver todas `git branch -a`}
+- Ver las configuraciones globales `git config --list`
+- Ver configuraciones globales y donde estan guardadas `git config --list --show-origin`
+- Agregar el nombre del usuario para los commits `git config --global user.name=nombre`
+- Agregar un correo electornico para los commits `git config --global user.email=correo@sitio.com`
+- Ver lo que contiene un archivo en la linea de comandos `git cat archivo`
+- Fusionar repositorio github con el local por primera vez `git pull origin main --allow-unrelated-histories`
+- Agregar un conexion remota de un repositorio al local via HTTPS o SSH(haber ingresado la key public antes al settings del usuario)`git remote add origin(nombre) (direccion ssh)`
+- Ver si tenemos alguna conexion remota `git remote`especifico `git remote -v`
 
 **Table of Contents**
 
 [TOCM]
-
-[TOC]
 
 ##Nos vemos
 
